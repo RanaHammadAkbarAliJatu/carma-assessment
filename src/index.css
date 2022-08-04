@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+main {
+  min-height: 80vh;
+}
+.welcome-img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+.blue-title{
+  color:#20ACE2
+}
